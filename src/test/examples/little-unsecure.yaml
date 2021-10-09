@@ -1,0 +1,8 @@
+---
+apiVersion: jug-in.bayern/v1beta2
+kind: Unsecret
+metadata:
+    name: little-unsecure
+spec:
+    sourceSecret: this-is-secret
+    targetConfigmap: show-it-to-me
